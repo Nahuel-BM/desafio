@@ -1,0 +1,10 @@
+{
+    "Crawler": {
+      "maxConnections": 1
+    },
+    "friends_shop": {
+        "uri": "https://www.naranja.com/comercios-amigos",
+        "file": "data/friends_shop.json"
+    },
+    "port": 5000
+  }

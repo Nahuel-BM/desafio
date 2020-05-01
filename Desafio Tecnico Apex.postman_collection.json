@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "46107e31-d65b-459f-90d4-74907b887b88",
+		"name": "Desafio Tecnico Apex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener preguntas frecuentes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/information/friendshop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"information",
+						"friendshop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Preguntas Frecuentes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/information/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"information",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener una pregunta frecuente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/information/friendshop/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"information",
+						"friendshop",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
